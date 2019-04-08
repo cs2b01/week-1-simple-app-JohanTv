@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>LOGIN USER</title>
+</head>
+
+<body>
+<h2>Registrate</h2>
+<input type="text" id="usuario" name="Usuario">
+<p></p>
+<input type="password" id="clave" name="Clave">
+<p></p>
+<input type="button" onclick="Login" value="Log in">
+</body>
+
+
+<script language="JavaScript">
+    function validar(){
+        var usuario=document.getElementById("usuario");
+        var password=document.getElementById("clave");
+
+        if (usuario==password) {
+            window.open("youtube.com");
+        }
+        else{
+            window.open("facebook.com");
+        }
+    }
+</script>
+</html>
